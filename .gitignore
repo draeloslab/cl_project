@@ -25,6 +25,7 @@ wheels/
 *.npz
 *.pkl
 *.pickle
+*.h5
 
 # Image files
 *.jpg

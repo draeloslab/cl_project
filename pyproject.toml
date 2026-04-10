@@ -21,7 +21,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest", "nbstripout"]
+dev = ["pytest", "nbstripout", "pyqt6>=6.11"]
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/cl_project"]
