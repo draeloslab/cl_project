@@ -1,6 +1,11 @@
 ## Installation
 
 ```bash
+python -m venv --system-site-packages  ~/venv
+source ~/venv/bin/activate
+```
+
+```bash
 pip install -e ".[dev]"
 ```
 
