@@ -38,4 +38,3 @@ To update the lock file after verifying a new working environment:
 ```bash
 pip freeze > requirements-lock.txt
 ```
-
