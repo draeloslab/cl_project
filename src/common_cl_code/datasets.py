@@ -10,13 +10,13 @@ import socket
 import pathlib
 
 
-match socket.gethostname().lower():
+match socket.gethostname():
     case 'tycho':
         DATA_BASE_PATH = pathlib.Path("/mnt/data/")
     case 'CL1-2544-135':
         DATA_BASE_PATH = pathlib.Path("/data/tmp")
     case _:
-        ValueError()
+        raise ValueError(f'Hostname {socket.gethostname()} not recognized.')
 
 
 class DandiDataset(ABC):
