@@ -11,7 +11,7 @@ python -m ipykernel install --user --name=cl_project_venv
 nbstripout --install
 ```
 
-To document what I ususally do:
+To replicate what I ususally do:
 ```bash
 deactivate # if a venv is already active
 cd ~/jgould/
