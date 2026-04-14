@@ -4,7 +4,7 @@ Public-facing install process:
 git clone https://github.com/draeloslab/cl_project.git
 cd cl_project
 
-python -m venv --system-site-packages env  # the --system-site-packages is necessary on CL1 instances
+python -m venv --system-site-packages venv  # the --system-site-packages is necessary on CL1 instances
 source venv/bin/activate
 pip install -e ".[dev]"
 python -m ipykernel install --user --name=cl_project_venv
